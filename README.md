@@ -1,4 +1,4 @@
-# AVR Mini Project
+# AVR Mini Projects
 ## Project 1
 ### Overview:
 This project demonstrates the basic usage of the ATmega32 microcontroller for controlling an LED and displaying information on 7-segment display. <br>
