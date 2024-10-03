@@ -24,3 +24,13 @@ This task implements a counter using two push buttons, allowing the user to incr
 -DIO Driver: Handles digital input/output operations for the microcontroller 'ATMEGA 32'.<br>
 -SSD Driver: Manages the 7-segment display.<br>
 -Switch Driver: Detects and debounces the DIP switch input. <br>
+
+## EXT_INTERRUPTS_TASK
+### Overview:
+The objective is to control a DC motor by toggling it on and off using a push button. This is achieved by utilizing an external interrupt (EXTI) pin on the microcontroller. When the push button is pressed, the interrupt is triggered, allowing the microcontroller to respond immediately, toggling the motor's state (on/off) without needing constant polling in the main code. This method ensures efficient motor control by leveraging hardware interrupts.
+### Project Files
+-DIO Driver <br>
+-Switch Driver <br>
+-Character LCD driver <br>
+-Interrupt driver - General EXT-Interrupts control driver <br>
+
