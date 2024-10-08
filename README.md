@@ -34,3 +34,23 @@ The objective is to control a DC motor by toggling it on and off using a push bu
 -Character LCD driver <br>
 -Interrupt driver - General EXT-Interrupts control driver <br>
 
+## ACD_TASK 
+### Overview:
+Create a system that detects ambient light levels using an LDR (Light Dependent Resistor) sensor connected to an ADC (Analog-to-Digital Converter). The system should light up a set of red LEDs when the room is dark (no lights) and turn the LEDs off when the room is bright.
+### Project Files
+-DIO Driver <br>
+-LED Driver <br>
+-ADC <br>
+
+## ACD_EXTRA_1
+### Overview:
+ Create a system that detects the ambient light levels using an LDR sensor connected to an ADC. Based on the light intensity, the system will light up different sets of LEDs:
+
+ALL LEDs for low light (worst-case, dark environment).
+Yellow LEDs for medium light (mid-level, ambient).
+Green LEDs for bright light (best-case, well-lit environment)
+### Project Files
+-DIO Driver <br>
+-LED Driver <br>
+-ADC <br>
+
